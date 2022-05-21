@@ -30,7 +30,7 @@ namespace SimpleInterestExample
         private void Calculate()
         {
             //Calculate total by retrieving values from ctrls
-            double dTotal = Convert.ToDouble(textBoxPrinciple.Text) + Convert.ToDouble(textBoxNoOfMonths.Text) * Convert.ToDouble(textBoxInterest.Text);
+            double dTotal = Convert.ToDouble(textBoxPrinciple.Text) + Convert.ToDouble(textBoxPrinciple.Text) * Convert.ToDouble(textBoxNoOfMonths.Text) * Convert.ToDouble(textBoxInterest.Text);
             textBoxTotal.Text = dTotal.ToString();
 
         }
